@@ -16,21 +16,31 @@ El Análisis Exploratorio de Datos (EDA) consiste de manera general en los sigui
 
 ## Introducción al conjunto de datos
 
-A continuación se indica una breve descripción de cada columna que forma parte del conjunto de datos.
+El conjunto de datos seleccionado "Car details v3" incluye información detallada sobre coches usados a la venta en la India. Aquí hay un breve resumen de las características clave y los patrones observados en los datos:
 
-* name: Nombre del modelo del coche.
-* year: Año de fabricación del coche.
-* selling_price: Precio de venta del coche.
-* km_driven: Kilómetros conducidos.
-* fuel: Tipo de combustible (Diesel, Petrol, etc.).
-* seller_type: Tipo de vendedor (Individual, Dealer).
-* transmission: Tipo de transmisión (Manual, Automatic).
-* owner: Tipo de propiedad (First Owner, Second Owner, etc.).
-* mileage: Rendimiento del combustible.
-* engine: Capacidad del motor.
-* max_power: Potencia máxima del motor.
+### Características Principales:
+
+* name: Marca y modelo del coche.
+* year: Año de fabricación.
+* selling_price: Precio de venta en rupias.
+* km_driven: Kilómetros recorridos por el vehículo.
+* fuel: Tipo de combustible (Diesel, Petrol, CNG, LPG, Electric).
+* seller_type: Tipo de vendedor (Individual, Dealer, Trustmark Dealer).
+* transmission: Tipo de transmisión (Manual o Automática).
+* owner: Tipo de propiedad anterior (Primero, Segundo, Tercero, etc.).
+* mileage: Eficiencia de combustible en km/l.
+* engine: Capacidad del motor en CC.
+* max_power: Potencia máxima en bhp.
 * torque: Torque del motor.
 * seats: Número de asientos.
+
+### Resumen de Datos:
+
+* Tamaño: El conjunto de datos inicialmente contiene 8,128 registros.
+* Rango Temporal: Los coches abarcan desde el año 1983 hasta 2020.
+* Precios: Varían considerablemente, con algunos coches listados tan bajos como ₹30,000 y otros hasta ₹10,000,000, mostrando una amplia gama de coches desde opciones económicas hasta vehículos de lujo.
+* Kilometraje: Los coches han recorrido desde 1 km hasta más de 2.3 millones de km, indicando una mezcla de vehículos casi nuevos y otros extremadamente usados.
+* Combustibles: Mayoritariamente, los coches utilizan diesel o gasolina, con una pequeña fracción usando CNG, LPG o siendo eléctricos.
 
 ## Tratamiento de valores nulos
 
