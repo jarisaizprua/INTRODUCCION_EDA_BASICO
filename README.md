@@ -72,3 +72,7 @@ Para simplificar el presente proyecto, se eliminan las filas con valores nulos; 
 * Histograma para la distribución de los kilómetros recorridos.
 * Gráfico de cajas para ver la distribución de los años de los autos.
 * Gráfico de conteo para los tipos de combustible.
+
+## Conclusiones
+
+Este conjunto de datos proporciona una rica fuente de información para comprender el mercado de coches usados en la India, ideal para futuros análisis más profundos como la predicción de precios o la evaluación de la depreciación del vehículo basada en diferentes características como el año, el tipo de combustible y el kilometraje.
